@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>Images</title>
+    <meta charset="utf-8">        
+</head>
+<body>
+    
+    <!-- Trying to keep the syntax similar to picturefill -->     
+     <div data-picture data-alt="Golden Retriever Puppy">
+        <div data-src="images/dog@low.jpg" data-media="(min-width: 400px)"></div>
+        <div data-src="images/dog.jpg" data-media="(min-width: 800px)"></div>
+        <div data-src="images/dog@2x.jpg" data-media="(min-width: 1000px)"></div>
+        
+        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+        <noscript>
+            <img src="images/dog.jpg" alt="Golden Retriever Puppy">
+        </noscript>
+    </div>
+     
+    <script src="js/lib/asset-manager.js"></script>
+    <script src="js/script.js"></script>
+
+    </body>
+</html>
