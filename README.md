@@ -7,4 +7,4 @@ Manage.connection will return "good" or "bad" (over 3mbs is good)
 
 Manage.battery will return "good" or "bad" (over 25% is good)
 
-Manage.pixelRatio will return "good" or "bad" (retina is good)
+Manage.pixelRatio will return "good" or "bad" (2:1 is good)
