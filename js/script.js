@@ -22,7 +22,7 @@
 
         alert('mixed bad of tricks, just load the normal image');
 
-    // check it everything is bad
+    // check if everything is bad
     } else if ( Manage.connection === 'bad' && Manage.battery === 'bad' ) {
 
         alert('load a tiny image, we\'re in bad shape');
